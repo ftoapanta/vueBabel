@@ -1,0 +1,14 @@
+{
+    "name": "my-project",
+    "version": "0.0.1",
+    "scripts": {
+        "build": "babel src -d js"
+    },
+    "devDependencies": {
+        "@babel/cli": "^7.1.5",
+        "@babel/core": "^7.1.6",
+        "@babel/preset-env": "^7.1.6",
+        "babel-cli": "^6.26.0"
+    },
+    "dependencies": {}
+}
