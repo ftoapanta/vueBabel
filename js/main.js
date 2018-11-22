@@ -10,12 +10,16 @@ var saludar = function saludar(nombre) {
   return console.log(nombre);
 };
 
-var despedir = function despedir(nombre) { 
+var despedir = function despedir(nombre) {
   return console.log(nombre);
 };
 
 var renunciar = function renunciar() {
   return console.log('error');
+};
+
+var solicitar = function solicitar() {
+  return console.info("info");
 };
 
 var Persona =
