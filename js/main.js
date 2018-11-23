@@ -7,11 +7,11 @@ function _defineProperties(target, props) { for (var i = 0; i < props.length; i+
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
 var saludar = function saludar(nombre) {
-  return console.log(nombre);
+  return console.log('hola ' + nombre);
 };
 
-var despedir = function despedir(nombre) {
-  return console.log(nombre);
+var despedir = function despedir() {
+  return console.log('despedir');
 };
 
 var Persona =

@@ -1,5 +1,5 @@
-let saludar = nombre => console.log(nombre);
-let despedir = nombre => console.log(nombre);
+let saludar = nombre => console.log('hola '+nombre);
+let despedir = () => console.log('despedir');
 
 
 class Persona
