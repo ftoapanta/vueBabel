@@ -14,14 +14,6 @@ var despedir = function despedir(nombre) {
   return console.log(nombre);
 };
 
-var renunciar = function renunciar() {
-  return console.log('error');
-};
-
-var pedir = function pedir() {
-  return console.log('pedir');
-};
-
 var Persona =
 /*#__PURE__*/
 function () {
