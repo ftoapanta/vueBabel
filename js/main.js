@@ -18,8 +18,8 @@ var renunciar = function renunciar() {
   return console.log('error');
 };
 
-var solicitar = function solicitar() {
-  return console.info("info");
+var pedir = function pedir() {
+  return console.log('pedir');
 };
 
 var Persona =

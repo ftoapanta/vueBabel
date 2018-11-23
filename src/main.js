@@ -1,7 +1,8 @@
 let saludar = nombre => console.log(nombre);
 let despedir = nombre => console.log(nombre);
 let renunciar = () => console.log('error');
-let solicitar = () => console.info("info");
+let pedir = () => console.log('pedir');
+
 
 class Persona
 {
